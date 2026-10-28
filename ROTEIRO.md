@@ -12,134 +12,123 @@ Pergunta para abrir: além da farinha, o que é necessário para um pão chegar 
 
 ## 02. Por que cada fator recebe?
 
-São os recursos que uma empresa utiliza para produzir bens e prestar serviços. O trabalho das pessoas, a terra, as máquinas e a organização do empresário participam desse processo.
+A remuneração dos fatores de produção é o pagamento relacionado à participação de cada recurso na atividade econômica. Para produzir um pão, a empresa precisa reunir pessoas, espaço, equipamentos e organização. Cada elemento contribui de uma maneira para o produto final.
 
-Remuneração é a compensação econômica ligada à participação de cada recurso na produção. Por isso, estudamos salários, renda da terra, juros e lucros, que têm origens diferentes.
+O trabalhador recebe salário por seu trabalho. O uso da terra pode gerar renda, os recursos financeiros podem render juros e a atividade empresarial pode gerar lucro. Essas remunerações têm origens diferentes, mesmo quando aparecem dentro de uma única empresa.
 
 ## 03. Os recursos para produzir
 
-O trabalho envolve o esforço físico e intelectual das pessoas. A terra inclui terrenos e recursos naturais. Na padaria, os padeiros representam o trabalho e o espaço onde ela funciona representa o fator terra.
+Os fatores de produção são os recursos que permitem transformar insumos em bens e serviços. O trabalho corresponde ao esforço humano. A terra reúne terrenos e recursos naturais. O capital físico inclui máquinas e equipamentos utilizados para produzir outros bens.
 
-Capital físico são fornos, máquinas e equipamentos utilizados na produção. A capacidade empresarial reúne decisões, organização e responsabilidade pelos riscos. Na padaria, são os equipamentos e a gestão do negócio.
+A capacidade empresarial combina esses recursos, organiza a produção e toma decisões. Na padaria, o gestor define compras, horários e quantidades produzidas. Ele também assume riscos, porque as vendas e os gastos podem resultar em lucro ou em prejuízo.
 
 ## 04. O ciclo da empresa
 
-A empresa reúne trabalhadores, instalações, máquinas e insumos. Em uma padaria, farinha, água, energia, equipamentos e trabalho são combinados para produzir pães e outros alimentos.
+A empresa reúne os fatores de produção e os insumos necessários para funcionar. Na padaria, trabalhadores usam instalações, fornos, farinha, água e energia para produzir alimentos. A venda desses produtos gera receita, que é a entrada de recursos proveniente das vendas.
 
-A venda dos produtos gera receita, mas também existem gastos. Parte dos recursos paga funcionários, fornecedores, aluguel e financiamentos. Depois dos gastos, a empresa pode apresentar lucro ou prejuízo.
+Essa receita precisa cobrir os custos e despesas da atividade, como salários, aluguel, matérias-primas e financiamentos. Por isso, o total vendido não corresponde ao lucro. O resultado depende da diferença entre a receita e os gastos considerados no período.
 
 ## 05. Dentro da nossa padaria
 
-Clique em cada fator e explique a contribuição antes de revelar a remuneração. Diferencie equipamentos físicos dos recursos financeiros.
+Na padaria, os padeiros e atendentes representam o trabalho, enquanto o terreno e sua localização se relacionam ao fator terra. Os fornos e as máquinas são capital físico. A pessoa que organiza compras, produção e vendas exerce a capacidade empresarial.
+
+O pagamento de cada contribuição depende de sua natureza. O trabalho recebe salário e o uso da terra pode gerar renda. Recursos financeiros emprestados podem gerar juros. A gestão assume os riscos e pode obter lucro, mas também pode enfrentar prejuízo.
 
 ## 06. Salário e mercado de trabalho
 
-Salário é o pagamento que uma pessoa recebe por seu trabalho. Na padaria, atendentes e padeiros oferecem sua capacidade de trabalhar, enquanto a empresa contrata essa mão de obra para funcionar.
+O salário é a remuneração recebida pelo trabalhador em troca de seu trabalho. No mercado de trabalho, as pessoas oferecem sua capacidade de trabalhar e as empresas procuram contratar. Na padaria, essa relação aparece na contratação de padeiros e atendentes.
 
-Trabalhadores oferecem trabalho e empresas procuram contratar. A remuneração depende de vários fatores, como qualificação, produtividade, procura por profissionais, leis e negociações.
+A remuneração depende de fatores como qualificação, produtividade e procura por profissionais. Leis e negociações também influenciam os pagamentos. Assim, pessoas em ocupações ou situações diferentes podem receber valores distintos, mesmo quando todas participam da produção de bens e serviços.
 
 ## 07. Salário nominal e real
 
-É o valor recebido em dinheiro. Se alguém ganhava R$ 2.000 e passa a receber R$ 2.100, o aumento nominal foi de 5%. Esse número, sozinho, não mostra se a pessoa pode comprar mais.
+O salário nominal é o valor recebido em dinheiro. No exemplo, a passagem de R$ 2.000 para R$ 2.100 representa um aumento nominal de 5%. Esse número informa quanto o pagamento cresceu, mas não mostra sozinho a mudança no poder de compra.
 
-Considera o poder de compra do dinheiro. Se os preços também aumentarem 5%, o ganho real será aproximadamente zero. Nesse caso, o aumento nominal apenas acompanha a alta dos preços.
+O salário real considera o que esse dinheiro permite comprar. Se o salário e os preços aumentarem os mesmos 5%, o poder de compra permanece igual. Portanto, para avaliar uma melhora na remuneração, precisamos comparar o aumento salarial com a variação dos preços.
 
 ## 08. Oferta e demanda de trabalho
 
-O gráfico é um modelo simplificado, sem valores numéricos. O salário aparece no eixo vertical e a quantidade de trabalho no horizontal. As demais condições ficam constantes.
+A curva de oferta representa as pessoas dispostas a trabalhar em cada nível de salário. A curva de demanda representa a quantidade de trabalho que as empresas desejam contratar. No modelo apresentado, a oferta cresce e a demanda diminui quando o salário aumenta.
 
-Verde: pessoas dispostas a trabalhar.
-Vermelha: trabalhadores que as empresas desejam contratar.
-
-É o ponto de equilíbrio: indica um salário e uma quantidade de trabalho compatíveis com a oferta e a demanda, neste modelo simplificado.
+O ponto em que as curvas se cruzam é chamado de equilíbrio. Ele indica um salário e uma quantidade de trabalho compatíveis com a oferta e a demanda. Trata-se de um modelo simplificado, que ajuda a compreender uma relação econômica sem representar toda a realidade.
 
 ## 09. Rendimentos no Brasil
 
-Destaque o ano de referência, 2024. Os números são médias de grupos distintos e não provam, isoladamente, diferença salarial entre duas pessoas no mesmo cargo.
+Segundo o IBGE, o rendimento médio habitual mensal em 2024 foi de R$ 2.778 para mulheres e R$ 3.533 para homens, considerando todos os trabalhos. O valor médio feminino correspondeu a cerca de 78,6% do masculino.
 
-Segundo o IBGE, em 2024 o rendimento habitual médio mensal de todos os trabalhos foi de R$ 2.778 para mulheres e R$ 3.533 para homens. O valor médio feminino correspondeu a cerca de 78,6% do masculino.
-
-São médias de grupos diferentes, não uma comparação entre pessoas na mesma função. Jornada, ocupação, escolaridade, região e desigualdades estruturais também influenciam a diferença observada.
+Esses valores são médias de grupos diferentes e não comparam apenas pessoas na mesma função. Jornada, ocupação, escolaridade, região e desigualdades estruturais influenciam os resultados. Por isso, a comparação exige considerar o contexto de cada grupo.
 
 ## 10. Renda da terra
 
-Renda da terra é a remuneração associada ao uso de terrenos e recursos naturais. Ela se relaciona à escassez, às características do terreno e à demanda por sua utilização em atividades econômicas.
+A renda da terra é a remuneração associada ao uso de terrenos e recursos naturais. Seu valor se relaciona à escassez, às características do terreno e à procura por sua utilização. A localização é importante porque pode tornar um espaço mais adequado à atividade econômica.
 
-Uma padaria precisa de um local para funcionar. Um ponto em uma rua movimentada pode ter aluguel mais alto por sua localização. É importante lembrar que o aluguel de um imóvel construído também remunera o prédio e suas melhorias.
+Uma padaria em uma rua movimentada pode disputar um ponto comercial com outros negócios. Isso pode elevar o pagamento pelo uso do espaço. Porém, o aluguel de um imóvel construído também remunera o prédio e suas melhorias, além do terreno onde ele se encontra.
 
 ## 11. Localização e arrendamento
 
-Uma área agrícola mais fértil ou próxima dos mercados pode apresentar maior potencial de renda. Nas cidades, terrenos bem localizados também podem ser mais disputados para comércio e moradia.
+No campo, uma terra mais fértil ou próxima dos mercados pode oferecer maior potencial de renda. Na cidade, a localização também influencia a procura por terrenos para comércio e moradia. Essas diferenças ajudam a explicar por que espaços distintos podem gerar remunerações diferentes.
 
-É quando o proprietário permite que outra pessoa use a terra mediante pagamento. Por exemplo, um agricultor pode arrendar um terreno para plantar, enquanto o dono recebe por disponibilizar aquela área.
+O arrendamento rural ocorre quando o proprietário permite que outra pessoa utilize a terra mediante pagamento. Por exemplo, um agricultor pode arrendar uma área para plantar. Nesse caso, quem utiliza o terreno desenvolve a produção e o proprietário recebe por disponibilizar o recurso.
 
 ## 12. Renda, patrimônio e receita
 
-Renda é um fluxo de remuneração relacionado ao uso do terreno. Valor do imóvel é o preço de mercado do bem. Um terreno pode ser caro sem gerar imediatamente renda mensal.
+A renda da terra é um fluxo de remuneração pelo uso do terreno. Já o valor do imóvel é o preço de mercado do bem, isto é, um valor de patrimônio. Um terreno pode ser caro e, mesmo assim, não gerar renda mensal para seu proprietário.
 
-Receita é o dinheiro obtido com a venda dos produtos. Na padaria, vender R$ 30 mil em pães não significa que esses R$ 30 mil sejam renda da terra, porque a venda envolve todos os fatores produtivos.
+A receita da produção tem outra origem: ela vem da venda dos produtos. Quando a padaria vende pães, o valor recebido envolve a participação de todos os fatores produtivos. Assim, a receita das vendas não pode ser interpretada integralmente como renda da terra.
 
 ## 13. Juros, renda e lucro
 
-Juros são o custo ou a remuneração pelo uso de recursos financeiros ao longo do tempo. Já as rendas podem remunerar o uso de determinados recursos ou ativos, como um terreno arrendado.
+Os juros correspondem ao custo ou à remuneração pelo uso de recursos financeiros ao longo do tempo. A renda pode remunerar o uso de um recurso ou ativo, como um terreno arrendado. Cada conceito descreve uma relação econômica e uma origem de pagamento diferente.
 
-Lucro ocorre quando as receitas superam os custos e despesas. Se os gastos forem maiores, há prejuízo. A padaria pode pagar salários, aluguel e juros e, ainda assim, ter lucro — ou terminar o mês no vermelho.
+O lucro é o resultado positivo que ocorre quando as receitas superam os custos e despesas. Se os gastos forem maiores que a receita, existe prejuízo. Uma empresa pode pagar salários, aluguel e juros e ainda apresentar lucro, dependendo do conjunto de suas contas.
 
 ## 14. Juros simples
 
-Nos juros simples, a taxa incide sempre sobre o capital inicial. Se a padaria tomar R$ 1.000 emprestados por três meses, a uma taxa hipotética de 2% ao mês, o juro mensal será de R$ 20.
+Nos juros simples, a taxa incide sempre sobre o capital inicial. No exemplo, a padaria toma R$ 1.000 emprestados por três meses, a uma taxa hipotética de 2% ao mês. Como a base de cálculo não muda, o juro mensal permanece em R$ 20.
 
-Usamos J = C × i × t. Assim, J = 1.000 × 0,02 × 3 = R$ 60. Ao final do período, o montante será de R$ 1.060. O exemplo não representa necessariamente uma taxa oferecida pelos bancos.
+A fórmula J = C × i × t multiplica o capital pela taxa e pelo prazo. A taxa de 2% entra no cálculo como 0,02. Assim, os juros totalizam R$ 60 e o montante final chega a R$ 1.060. Os valores representam apenas uma simulação didática.
 
 ## 15. Juros compostos
 
-Nos juros compostos, os juros de cada período passam a integrar a base de cálculo do período seguinte. É o chamado efeito de juros sobre juros, muito utilizado em operações financeiras.
+Nos juros compostos, os juros de cada período passam a integrar a base de cálculo do período seguinte. Por isso, o valor sobre o qual a taxa incide aumenta ao longo do tempo. Esse mecanismo é conhecido como juros sobre juros.
 
-Para os mesmos R$ 1.000, com taxa de 2% ao mês por três meses, usamos M = C × (1 + i)ᵗ. O cálculo fica M = 1.000 × (1,02)³, resultando em aproximadamente R$ 1.061,21.
+Para o mesmo capital de R$ 1.000, a 2% ao mês durante três meses, aplicamos M = C × (1 + i) elevado a t. O montante final fica em aproximadamente R$ 1.061,21. A diferença em relação aos juros simples cresce quando o prazo aumenta.
 
 ## 16. Simulador de juros
 
-Comece com R$ 1.000, 2% ao mês e 24 meses. Os montantes são R$ 1.480 nos juros simples e cerca de R$ 1.608,44 nos compostos. Depois reduza o prazo para três meses e compare.
+A simulação compara os dois regimes com o mesmo capital, a mesma taxa e o mesmo prazo. Em três meses, os montantes ficam em R$ 1.060 nos juros simples e cerca de R$ 1.061,21 nos compostos. Nesse prazo curto, a diferença ainda é pequena.
 
-Explique os controles: capital inicial, taxa mensal e prazo. São taxas hipotéticas, sem tributos, tarifas ou fluxo de pagamentos intermediários.
-
-Juros simples: R$ 1.060. Juros compostos: R$ 1.061,21. A diferença é pequena porque o prazo é curto. Mesmo assim, a linha composta já começa a crescer mais rápido.
-
-Juros simples: R$ 1.480. Juros compostos: aproximadamente R$ 1.608,44. Agora a diferença é de R$ 128,44, mostrando como o tempo amplia o efeito dos juros sobre juros.
+Em 24 meses, com R$ 1.000 e taxa de 2% ao mês, os valores chegam a R$ 1.480 e aproximadamente R$ 1.608,44. A diferença passa a R$ 128,44. Os controles permitem observar como capital, taxa e tempo alteram os montantes em cada regime.
 
 ## 17. Receita, gastos e resultado
 
-Vamos imaginar que uma padaria venda R$ 30 mil em um mês. Esse dinheiro é a receita das vendas. Mas a empresa precisa pagar funcionários, aluguel, matérias-primas, contas e outras despesas para funcionar.
+A receita é o total recebido com as vendas. Se a padaria vende R$ 30 mil em um mês, esse é seu faturamento no exemplo. Antes de conhecer o ganho final, precisamos considerar os pagamentos necessários para manter a atividade funcionando.
 
-Se os gastos totalizarem R$ 25 mil, o resultado simplificado será de R$ 5 mil. Isso é diferente de dizer que a empresa lucrou R$ 30 mil. Os valores são fictícios e podem não incluir todos os tributos e obrigações.
+Se os gastos considerados somam R$ 25 mil, o resultado simplificado é de R$ 5 mil. Esse valor é diferente da receita de R$ 30 mil. A distinção ajuda a evitar a ideia de que todo dinheiro recebido nas vendas representa lucro para o empresário.
 
 ## 18. As contas da padaria
 
-Leia as colunas da esquerda para a direita: receita inicial, cada gasto e resultado final. A margem simplificada equivale a 5.000 dividido por 30.000, ou aproximadamente 16,7%.
+O gráfico começa com R$ 30 mil em vendas e mostra a retirada de cada gasto. A padaria paga R$ 10 mil em salários, R$ 3 mil em aluguel, R$ 8 mil em insumos e R$ 4 mil em outros gastos, restando R$ 5 mil.
 
-Começamos com R$ 30 mil de vendas. Tiramos R$ 10 mil de salários, R$ 3 mil de aluguel, R$ 8 mil de insumos e R$ 4 mil de outros gastos. O valor que sobra é R$ 5 mil.
-
-O faturamento mostra as vendas, não o ganho final. Para avaliar o negócio, precisamos considerar os gastos. A margem do resultado simplificado é de cerca de 16,7% da receita.
+A margem do resultado simplificado é a relação entre o resultado e a receita. Dividimos R$ 5 mil por R$ 30 mil e multiplicamos por 100, obtendo aproximadamente 16,7%. Os valores são fictícios e não representam necessariamente todos os tributos e obrigações de uma empresa.
 
 ## 19. Lucro ou prejuízo?
 
-Mova as vendas para R$ 25 mil: o resultado fica em zero. Abaixo desse valor, há prejuízo. Acima, há lucro.
+A empresa apresenta lucro quando a receita supera os custos e despesas. Esse excedente pode ser usado em reservas, investimentos ou distribuição aos proprietários. Quando a receita não cobre os gastos, o resultado é negativo e a empresa registra prejuízo no período.
 
-Neste experimento os gastos permanecem em R$ 25 mil para isolar o efeito das vendas. Na realidade, vários custos também variam com a quantidade produzida.
-
-O negócio apresenta resultado positivo quando consegue vender o suficiente para cobrir seus custos e despesas. Esse excedente pode ser utilizado em reservas, investimentos e distribuição aos proprietários.
-
-Se as vendas caírem ou os gastos aumentarem demais, a padaria pode ter prejuízo. Mesmo trabalhando muito, um empresário não tem lucro assegurado: decisões, concorrência e riscos influenciam o resultado.
+No experimento, mantemos os gastos em R$ 25 mil e alteramos apenas as vendas. Com receita de R$ 25 mil, o resultado é zero. Acima desse valor há lucro e abaixo há prejuízo. Na prática, parte dos gastos também varia com a produção e as vendas.
 
 ## 20. Síntese das remunerações
 
-A linha capital distingue capital físico e financeiro. Juros remuneram recursos financeiros. Equipamentos participam da produção e podem gerar retorno.
+O trabalho se relaciona ao salário e o uso da terra pode gerar renda da terra. No capital, é importante distinguir os recursos financeiros dos equipamentos físicos. Os juros se referem ao capital financeiro, enquanto o capital físico participa da produção e pode gerar retorno.
+
+A capacidade empresarial organiza os recursos e assume os riscos da atividade. Seu resultado pode ser lucro ou prejuízo. A tabela reúne essas relações para mostrar que cada remuneração tem uma origem, embora todos os fatores participem da produção do mesmo bem.
 
 ## 21. Uma pessoa, várias remunerações
 
-Sem funcionários, local, equipamentos e organização, uma padaria não consegue produzir. Cada fator participa de maneira diferente, mas todos são importantes para que o negócio funcione.
+Os fatores de produção atuam em conjunto, mas suas remunerações têm origens diferentes. Uma mesma pessoa pode participar dessas relações de várias formas. Ela pode trabalhar e receber salário, disponibilizar um imóvel e receber aluguel ou aplicar recursos financeiros e obter juros.
 
-Sim. Alguém pode trabalhar e receber salário, alugar um imóvel e receber aluguel, obter juros de recursos aplicados e também participar de uma empresa que tenha lucro.
+Essa pessoa também pode participar de uma empresa e receber parte de seu lucro. O exemplo da padaria mostra que produzir exige combinar recursos e organizar decisões. Entender quem contribui e como recebe ajuda a compreender a distribuição dos rendimentos gerados pela atividade econômica.
 
 ## 22. Obrigado e referências
 

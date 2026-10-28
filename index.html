@@ -99,6 +99,125 @@ body.presenter .topbar,body.presenter .bottombar,body.presenter .reading-progres
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
 @media print{html,body{background:var(--paper)!important;overflow:visible!important}.topbar,.bottombar,.reading-progress,.app-dialog,.skip{display:none!important}.reveal{top:0!important;height:auto!important}.reveal .slides section{print-color-adjust:exact!important;-webkit-print-color-adjust:exact!important}.reveal .slides>section{padding:38px 76px 55px!important}.reveal .slides>.hero{padding:0!important}.factor-menu button{pointer-events:none}.factor-detail{min-height:330px}input[type=range]{pointer-events:none}.reveal .source{font-size:14px}button.text-button{display:none}}
 
+/* Textos visíveis para leitura durante o seminário. */
+.reveal .slides>section[data-reading]{padding-top:32px}
+.reveal [data-reading] h2{font-size:49px;line-height:1.12;letter-spacing:-1.5px;margin:18px 0 24px}
+.reveal [data-reading] .lead{font-size:25px;line-height:1.4;margin-bottom:20px}
+.reveal [data-reading] .small{font-size:21px;line-height:1.4}
+.reveal [data-reading] .split{margin-top:28px;gap:82px;align-items:center}
+.reveal [data-reading] .split h2{margin-top:0}
+.reveal [data-reading] .reading-text{position:absolute;left:76px;right:76px;top:548px;height:220px;padding-top:19px;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start}
+.reveal [data-reading] .reading-text p{font-size:24px;line-height:1.42;color:var(--ink);margin:0;letter-spacing:0}
+.reveal [data-reading]>.bottom-note{display:none}
+.reveal [data-reading]>.source{bottom:13px;font-size:14px;line-height:1.3}
+.reveal [data-reading] .factor-strip{margin-top:30px}
+.reveal [data-reading] .factor-strip h3{font-size:29px}
+.reveal [data-reading] .factor-strip p{font-size:22px;min-height:56px;margin-bottom:16px}
+.reveal [data-reading] .factor-strip .ordinal{margin-bottom:15px}
+.reveal [data-reading] .factor-strip strong{font-size:23px}
+.reveal [data-reading] .intro-split{margin-top:30px}
+.reveal [data-reading] .intro-split>div:first-child{padding-top:5px}
+.reveal [data-reading] .editorial-list>div{padding:12px 0;gap:20px}
+.reveal [data-reading] .editorial-list h3{font-size:25px;margin-bottom:5px}
+.reveal [data-reading] .editorial-list p{font-size:22px;line-height:1.35}
+.reveal [data-reading] .process{margin-top:34px;gap:24px}
+.reveal [data-reading] .process-number{font-size:62px;margin-bottom:20px}
+.reveal [data-reading] .process h3{font-size:28px}
+.reveal [data-reading] .process p{font-size:23px;line-height:1.4}
+.reveal [data-reading] .process-link{font-size:31px;margin-top:18px}
+.reveal [data-reading] .factor-explorer{margin-top:25px;gap:85px}
+.reveal [data-reading] .factor-choice{font-size:28px;padding:15px 3px}
+.reveal [data-reading] .factor-detail{padding-top:15px}
+.reveal [data-reading] .factor-detail .factor-subject{font-size:15px;margin-bottom:16px}
+.reveal [data-reading] .factor-detail h3{font-size:36px;margin-bottom:13px}
+.reveal [data-reading] .factor-detail p{font-size:24px;line-height:1.4;margin-bottom:15px}
+.reveal [data-reading] .factor-detail .factor-pay{font-size:43px;margin-top:20px}
+.reveal [data-reading] .factor-pay small{font-size:14px;margin-bottom:9px}
+.reveal [data-reading] .micro{font-size:15px;margin-top:16px}
+.reveal [data-reading] .salary-split{margin-top:28px}
+.reveal [data-reading] .salary-split>div:first-child>.muted{font-size:24px;line-height:1.4}
+.reveal [data-reading] .word-list{margin:5px 0 20px}
+.reveal [data-reading] .word-list p{font-size:26px;padding:12px 0}
+.reveal [data-reading] .small-heading{font-size:15px;margin-bottom:17px}
+.reveal [data-reading] .nominal-comparison{margin-top:24px;gap:70px}
+.reveal [data-reading] .nominal-comparison>div+div{padding-left:65px}
+.reveal [data-reading] .money-pair{font-size:38px;margin:26px 0 22px}
+.reveal [data-reading] .nominal-comparison p{font-size:23px}
+.reveal [data-reading] .display-number{font-size:88px;letter-spacing:-4px;margin-bottom:13px}
+.reveal [data-reading] .display-number>span{font-size:42px}
+.reveal [data-reading] .chart-split{margin-top:16px;gap:68px}
+.reveal [data-reading] .labor-chart{height:325px}
+.reveal [data-reading] .chart-explanation h3{font-size:28px;margin-bottom:20px}
+.reveal [data-reading] .chart-explanation p{font-size:23px;line-height:1.4;margin-bottom:17px}
+.reveal [data-reading] .chart-explanation .muted{font-size:21px}
+.reveal [data-reading] .gender-split{gap:110px;margin-top:16px}
+.reveal [data-reading] .gender-chart{height:325px;gap:70px;padding-bottom:10px}
+.reveal [data-reading] .gender-bar strong{font-size:29px}
+.reveal [data-reading] .gender-bar .female{height:178px!important}
+.reveal [data-reading] .gender-bar .male{height:226px!important}
+.reveal [data-reading] .gender-bar>span{font-size:22px}
+.reveal [data-reading] .gender-split .display-number{font-size:83px}
+.reveal [data-reading] .gender-split .lead{font-size:25px;margin-bottom:17px}
+.reveal [data-reading] .gender-split .small{font-size:21px}
+.reveal [data-reading] .location-visual{height:310px;margin-top:5px}
+.reveal [data-reading] .split>div:first-child>.muted{font-size:24px;line-height:1.4}
+.reveal [data-reading] .three-column{margin-top:32px;gap:46px}
+.reveal [data-reading] .three-column p{font-size:24px;line-height:1.4}
+.reveal [data-reading] .three-column h3{font-size:32px}
+.reveal [data-reading] .large-outline{font-size:57px;margin-bottom:19px}
+.reveal [data-reading] .definitions{margin-top:32px}
+.reveal [data-reading] .definitions h3{font-size:35px;margin-bottom:19px}
+.reveal [data-reading] .definitions .small-heading{font-size:14px}
+.reveal [data-reading] .definition-example{font-size:18px;padding-top:2px}
+.reveal [data-reading] .formula-split{margin-top:28px}
+.reveal [data-reading] .formula-example{padding-left:55px}
+.reveal [data-reading] .formula{font-size:37px;margin:12px 0 20px}
+.reveal [data-reading] .formula-example>p{font-size:24px}
+.reveal [data-reading] .formula-result{font-size:75px;margin:22px 0 23px}
+.reveal [data-reading] .formula-result>span{font-size:19px;margin-top:5px}
+.reveal [data-reading] .final-amount{font-size:23px;padding-top:18px}
+.reveal [data-reading] .assumptions{margin-top:23px;gap:23px}
+.reveal [data-reading] .assumptions b{font-size:23px}
+.reveal [data-reading] .compound-layout{margin-top:26px;gap:90px}
+.reveal [data-reading] .compound-layout .lead{font-size:25px}
+.reveal [data-reading] .compound-layout .formula{margin-top:24px}
+.reveal [data-reading] .compound-steps>div{padding:16px 0}
+.reveal [data-reading] .compound-steps strong{font-size:29px}
+.reveal [data-reading] .compound-steps span{font-size:14px}
+.reveal [data-reading] .simulator{margin-top:20px;gap:66px}
+.reveal [data-reading] .chart-legend{font-size:16px;margin-bottom:13px}
+.reveal [data-reading] .simulation-chart svg{height:290px}
+.reveal [data-reading] .simulation-controls label{font-size:17px;margin-bottom:4px}
+.reveal [data-reading] .simulation-controls label strong{font-size:20px}
+.reveal [data-reading] .simulation-controls input[type=range]{margin-bottom:12px;height:22px}
+.reveal [data-reading] .simulation-result{padding-top:13px}
+.reveal [data-reading] .simulation-result strong{font-size:35px;margin-top:5px}
+.reveal [data-reading] .text-button{font-size:14px;margin-top:9px}
+.reveal [data-reading] .profit-equation{margin-top:35px}
+.reveal [data-reading] .profit-equation strong{font-size:98px;margin:14px 0}
+.reveal [data-reading] .profit-equation p{font-size:22px}
+.reveal [data-reading] .profit-equation .math-sign{font-size:50px}
+.reveal [data-reading] .waterfall-layout{margin-top:23px;gap:50px}
+.reveal [data-reading] .waterfall-layout svg{height:325px}
+.reveal [data-reading] .margin-stat>strong{font-size:66px;margin:5px 0 16px}
+.reveal [data-reading] .margin-stat p{font-size:22px}
+.reveal [data-reading] .risk-split{margin-top:30px}
+.reveal [data-reading] .risk-split h2{margin-bottom:17px}
+.reveal [data-reading] .risk-split .lead{font-size:24px;line-height:1.4;margin-bottom:14px}
+.reveal [data-reading] .risk-split label{margin-top:22px;font-size:18px}
+.reveal [data-reading] .risk-split input[type=range]{margin-bottom:13px}
+.reveal [data-reading] .risk-split .small{font-size:19px;line-height:1.35}
+.reveal [data-reading] .risk-result{padding:25px 0 25px 50px}
+.reveal [data-reading] .risk-result>strong{font-size:72px}
+.reveal [data-reading] .risk-result>p:last-child{font-size:23px;line-height:1.4;margin-top:22px}
+.reveal [data-reading] .summary-table{margin-top:26px}
+.reveal [data-reading] .summary-table th{padding-bottom:16px;font-size:14px}
+.reveal [data-reading] .summary-table td{padding:18px 22px 18px 0;font-size:23px;line-height:1.3}
+.reveal [data-reading] .income-rows{margin-top:24px;gap:0 80px}
+.reveal [data-reading] .income-rows>div{padding:17px 0}
+.reveal [data-reading] .income-rows span{font-size:21px}
+.reveal [data-reading] .income-rows strong{font-size:24px}
+
 </style>
 <!-- Included software and font licenses:
 Copyright (C) 2011-2026 Hakim El Hattab, http://hakim.se, and reveal.js contributors
@@ -336,7 +455,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         <div class="hero-caption">UM PRODUTO. VÁRIAS CONTRIBUIÇÕES.</div>
       </section>
 
-      <section class="light" data-title="Por que cada fator recebe?" data-chapter="Introdução">
+      <section class="light" data-title="Por que cada fator recebe?" data-chapter="Introdução" data-reading="true">
         <p class="eyebrow">01 / A IDEIA CENTRAL</p>
         <h2>O pão chega ao balcão.<br><em>Quem tornou isso possível?</em></h2>
         <p class="lead narrow">Cada recurso participa da produção e se relaciona a uma forma de remuneração.</p>
@@ -346,9 +465,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           <div><span class="ordinal">03</span><h3>Capital</h3><p>Equipamentos e recursos</p><strong>Retorno / juros</strong></div>
           <div><span class="ordinal">04</span><h3>Gestão</h3><p>A capacidade empresarial</p><strong>Lucro ou prejuízo</strong></div>
         </div>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>A remuneração dos fatores de produção é o pagamento relacionado à participação de cada recurso na atividade econômica. Para produzir um pão, a empresa precisa reunir pessoas, espaço, equipamentos e organização. Cada elemento contribui de uma maneira para o produto final.</p><p>O trabalhador recebe salário por seu trabalho. O uso da terra pode gerar renda, os recursos financeiros podem render juros e a atividade empresarial pode gerar lucro. Essas remunerações têm origens diferentes, mesmo quando aparecem dentro de uma única empresa.</p></div>
       </section>
 
-      <section data-title="Os recursos para produzir" data-chapter="Introdução">
+      <section data-title="Os recursos para produzir" data-chapter="Introdução" data-reading="true">
         <p class="eyebrow">01 / FATORES DE PRODUÇÃO</p>
         <div class="split intro-split">
           <div><h2>O que a padaria<br>precisa para<br><em>funcionar?</em></h2><p class="lead">Fatores de produção são os recursos usados para produzir bens e prestar serviços.</p></div>
@@ -359,9 +479,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
             <div><span>04</span><div><h3>Capacidade empresarial</h3><p>Decisões, organização e responsabilidade pelos riscos.</p></div></div>
           </div>
         </div>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>Os fatores de produção são os recursos que permitem transformar insumos em bens e serviços. O trabalho corresponde ao esforço humano. A terra reúne terrenos e recursos naturais. O capital físico inclui máquinas e equipamentos utilizados para produzir outros bens.</p><p>A capacidade empresarial combina esses recursos, organiza a produção e toma decisões. Na padaria, o gestor define compras, horários e quantidades produzidas. Ele também assume riscos, porque as vendas e os gastos podem resultar em lucro ou em prejuízo.</p></div>
       </section>
 
-      <section class="light" data-title="O ciclo da empresa" data-chapter="A empresa">
+      <section class="light" data-title="O ciclo da empresa" data-chapter="A empresa" data-reading="true">
         <p class="eyebrow">02 / A EMPRESA</p>
         <h2>Da produção<br><em>aos pagamentos</em></h2>
         <div class="process">
@@ -374,9 +495,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           <div><span class="process-number">04</span><h3>Remunerar</h3><p>A empresa paga os recursos utilizados.</p></div>
         </div>
         <p class="bottom-note">Depois dos custos e despesas, o resultado pode ser lucro ou prejuízo.</p>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>A empresa reúne os fatores de produção e os insumos necessários para funcionar. Na padaria, trabalhadores usam instalações, fornos, farinha, água e energia para produzir alimentos. A venda desses produtos gera receita, que é a entrada de recursos proveniente das vendas.</p><p>Essa receita precisa cobrir os custos e despesas da atividade, como salários, aluguel, matérias-primas e financiamentos. Por isso, o total vendido não corresponde ao lucro. O resultado depende da diferença entre a receita e os gastos considerados no período.</p></div>
       </section>
 
-      <section data-title="Dentro da nossa padaria" data-chapter="A empresa">
+      <section data-title="Dentro da nossa padaria" data-chapter="A empresa" data-reading="true">
         <p class="eyebrow">02 / EXEMPLO CENTRAL</p>
         <h2>Dentro da <em>nossa padaria</em></h2>
         <div class="factor-explorer">
@@ -389,17 +511,19 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           <div id="factorDetail" class="factor-detail" aria-live="polite"></div>
         </div>
         <p class="micro">Escolha um fator para ver sua contribuição e sua remuneração.</p>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>Na padaria, os padeiros e atendentes representam o trabalho, enquanto o terreno e sua localização se relacionam ao fator terra. Os fornos e as máquinas são capital físico. A pessoa que organiza compras, produção e vendas exerce a capacidade empresarial.</p><p>O pagamento de cada contribuição depende de sua natureza. O trabalho recebe salário e o uso da terra pode gerar renda. Recursos financeiros emprestados podem gerar juros. A gestão assume os riscos e pode obter lucro, mas também pode enfrentar prejuízo.</p></div>
       </section>
 
-      <section class="light" data-title="Salário e mercado de trabalho" data-chapter="Salários">
+      <section class="light" data-title="Salário e mercado de trabalho" data-chapter="Salários" data-reading="true">
         <p class="eyebrow">03 / SALÁRIOS</p>
         <div class="split salary-split">
           <div><h2>O valor<br>do <em>trabalho</em></h2><p class="lead">Salário é o pagamento que uma pessoa recebe por seu trabalho.</p><p class="muted">Na padaria, padeiros e atendentes oferecem trabalho. A empresa contrata essa mão de obra.</p></div>
           <div><h3 class="small-heading">O QUE INFLUENCIA A REMUNERAÇÃO?</h3><div class="word-list"><p>Qualificação</p><p>Produtividade</p><p>Procura por profissionais</p><p>Leis e negociações</p></div><p class="small muted">Trabalhadores oferecem trabalho. Empresas demandam trabalho.</p></div>
         </div>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>O salário é a remuneração recebida pelo trabalhador em troca de seu trabalho. No mercado de trabalho, as pessoas oferecem sua capacidade de trabalhar e as empresas procuram contratar. Na padaria, essa relação aparece na contratação de padeiros e atendentes.</p><p>A remuneração depende de fatores como qualificação, produtividade e procura por profissionais. Leis e negociações também influenciam os pagamentos. Assim, pessoas em ocupações ou situações diferentes podem receber valores distintos, mesmo quando todas participam da produção de bens e serviços.</p></div>
       </section>
 
-      <section data-title="Salário nominal e real" data-chapter="Salários">
+      <section data-title="Salário nominal e real" data-chapter="Salários" data-reading="true">
         <p class="eyebrow">03 / PODER DE COMPRA</p>
         <h2>Ganhar mais.<br><em>Comprar mais?</em></h2>
         <div class="nominal-comparison">
@@ -407,18 +531,20 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           <div><p class="small-heading">SALÁRIO REAL</p><div class="display-number">0<span>%</span></div><p>de ganho no poder de compra se os preços também subirem 5%.</p></div>
         </div>
         <p class="bottom-note">Salário real considera quanto o dinheiro consegue comprar.</p>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>O salário nominal é o valor recebido em dinheiro. No exemplo, a passagem de R$ 2.000 para R$ 2.100 representa um aumento nominal de 5%. Esse número informa quanto o pagamento cresceu, mas não mostra sozinho a mudança no poder de compra.</p><p>O salário real considera o que esse dinheiro permite comprar. Se o salário e os preços aumentarem os mesmos 5%, o poder de compra permanece igual. Portanto, para avaliar uma melhora na remuneração, precisamos comparar o aumento salarial com a variação dos preços.</p></div>
       </section>
 
-      <section class="light" data-title="Oferta e demanda de trabalho" data-chapter="Salários">
+      <section class="light" data-title="Oferta e demanda de trabalho" data-chapter="Salários" data-reading="true">
         <p class="eyebrow">03 / MERCADO DE TRABALHO</p>
         <h2>Oferta, demanda <em>e equilíbrio</em></h2>
         <div class="chart-split">
           <svg class="labor-chart" viewBox="0 0 710 400" role="img" aria-labelledby="laborTitle laborDesc"><title id="laborTitle">Oferta e demanda de trabalho</title><desc id="laborDesc">A oferta cresce com o salário. A demanda diminui. As duas curvas se cruzam no equilíbrio. Modelo didático sem valores numéricos.</desc><g class="chart-grid"><path d="M80 110H650M80 205H650M80 300H650"/></g><path class="chart-axis" d="M80 55V345H650"/><text x="80" y="30">Salário</text><text x="300" y="390">Quantidade de trabalho</text><path class="supply" d="M115 315L610 75"/><path class="demand" d="M115 75L610 315"/><path class="equilibrium-guide" d="M80 195H363V345"/><circle cx="363" cy="195" r="9" fill="var(--ink)"/><text class="equilibrium-text" x="382" y="185">Equilíbrio</text><text class="supply-text" x="516" y="63">Oferta</text><text class="demand-text" x="516" y="342">Demanda</text></svg>
           <div class="chart-explanation"><h3>O encontro das curvas</h3><p><b class="green">Oferta:</b> pessoas dispostas a trabalhar.</p><p><b class="coral">Demanda:</b> trabalho que as empresas desejam contratar.</p><p class="muted">O cruzamento indica salário e quantidade de trabalho compatíveis neste modelo simplificado.</p></div>
         </div>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>A curva de oferta representa as pessoas dispostas a trabalhar em cada nível de salário. A curva de demanda representa a quantidade de trabalho que as empresas desejam contratar. No modelo apresentado, a oferta cresce e a demanda diminui quando o salário aumenta.</p><p>O ponto em que as curvas se cruzam é chamado de equilíbrio. Ele indica um salário e uma quantidade de trabalho compatíveis com a oferta e a demanda. Trata-se de um modelo simplificado, que ajuda a compreender uma relação econômica sem representar toda a realidade.</p></div>
       </section>
 
-      <section data-title="Rendimentos no Brasil" data-chapter="Salários">
+      <section data-title="Rendimentos no Brasil" data-chapter="Salários" data-reading="true">
         <p class="eyebrow">03 / BRASIL · DADOS DE 2024</p>
         <h2>Diferenças <em>de rendimento</em></h2>
         <div class="chart-split gender-split">
@@ -426,88 +552,101 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           <div><div class="display-number">78,6<span>%</span></div><p class="lead">O rendimento médio das mulheres correspondeu a 78,6% do masculino.</p><p class="small muted">São médias de grupos diferentes. Jornada, ocupação, escolaridade, região e desigualdades estruturais influenciam os resultados. A comparação não isola pessoas na mesma função.</p></div>
         </div>
         <a class="source" href="https://agenciadenoticias.ibge.gov.br/media/com_mediaibge/arquivos/71016b2eb0a5feb8f7685271b1233db7.pdf" target="_blank" rel="noopener">Rendimento habitual mensal de todos os trabalhos. Fonte: IBGE, PNAD Contínua 2024 ↗</a>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>Segundo o IBGE, o rendimento médio habitual mensal em 2024 foi de R$ 2.778 para mulheres e R$ 3.533 para homens, considerando todos os trabalhos. O valor médio feminino correspondeu a cerca de 78,6% do masculino.</p><p>Esses valores são médias de grupos diferentes e não comparam apenas pessoas na mesma função. Jornada, ocupação, escolaridade, região e desigualdades estruturais influenciam os resultados. Por isso, a comparação exige considerar o contexto de cada grupo.</p></div>
       </section>
 
-      <section class="light" data-title="Renda da terra" data-chapter="Terra">
+      <section class="light" data-title="Renda da terra" data-chapter="Terra" data-reading="true">
         <p class="eyebrow">04 / RENDA DA TERRA</p>
         <div class="split">
           <div><h2>O valor<br>do <em>lugar</em></h2><p class="lead">O uso de terrenos e recursos naturais pode gerar renda da terra.</p><p class="muted">Escassez, características do terreno e demanda influenciam essa remuneração.</p></div>
           <div class="location-visual"><div class="street street-a"></div><div class="street street-b"></div><div class="city-block block-a"></div><div class="city-block block-b"></div><div class="city-block block-c"></div><div class="bakery-pin"><span aria-hidden="true">⌂</span><strong>PADARIA</strong></div><span class="map-caption">Localização ilustrativa</span></div>
         </div>
         <p class="bottom-note">No aluguel de um imóvel construído, o pagamento também remunera o prédio e suas melhorias.</p>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>A renda da terra é a remuneração associada ao uso de terrenos e recursos naturais. Seu valor se relaciona à escassez, às características do terreno e à procura por sua utilização. A localização é importante porque pode tornar um espaço mais adequado à atividade econômica.</p><p>Uma padaria em uma rua movimentada pode disputar um ponto comercial com outros negócios. Isso pode elevar o pagamento pelo uso do espaço. Porém, o aluguel de um imóvel construído também remunera o prédio e suas melhorias, além do terreno onde ele se encontra.</p></div>
       </section>
 
-      <section data-title="Localização e arrendamento" data-chapter="Terra">
+      <section data-title="Localização e arrendamento" data-chapter="Terra" data-reading="true">
         <p class="eyebrow">04 / RENDA NA PRÁTICA</p>
         <h2>O que torna uma terra<br><em>mais disputada?</em></h2>
         <div class="three-column land-columns"><div><span class="large-outline">01</span><h3>Fertilidade</h3><p>Uma área agrícola mais fértil pode oferecer maior potencial de renda.</p></div><div><span class="large-outline">02</span><h3>Localização</h3><p>Proximidade dos mercados e movimento na rua podem valorizar o uso do espaço.</p></div><div><span class="large-outline">03</span><h3>Arrendamento</h3><p>O proprietário recebe pagamento ao permitir que outra pessoa use sua terra.</p></div></div>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>No campo, uma terra mais fértil ou próxima dos mercados pode oferecer maior potencial de renda. Na cidade, a localização também influencia a procura por terrenos para comércio e moradia. Essas diferenças ajudam a explicar por que espaços distintos podem gerar remunerações diferentes.</p><p>O arrendamento rural ocorre quando o proprietário permite que outra pessoa utilize a terra mediante pagamento. Por exemplo, um agricultor pode arrendar uma área para plantar. Nesse caso, quem utiliza o terreno desenvolve a produção e o proprietário recebe por disponibilizar o recurso.</p></div>
       </section>
 
-      <section class="light" data-title="Renda, patrimônio e receita" data-chapter="Terra">
+      <section class="light" data-title="Renda, patrimônio e receita" data-chapter="Terra" data-reading="true">
         <p class="eyebrow">04 / CONCEITOS DIFERENTES</p>
         <h2>Renda, patrimônio <em>e receita</em></h2>
         <div class="three-column definitions"><div><p class="small-heading">PELO USO</p><h3>Renda<br>da terra</h3><p>Fluxo de remuneração relacionado ao uso do terreno.</p><span class="definition-example">Exemplo: arrendamento.</span></div><div><p class="small-heading">PELA PROPRIEDADE</p><h3>Valor<br>do imóvel</h3><p>Preço de mercado do bem. Pode ser alto sem gerar renda mensal.</p><span class="definition-example">É um valor de patrimônio.</span></div><div><p class="small-heading">PELAS VENDAS</p><h3>Receita<br>da produção</h3><p>Dinheiro recebido ao vender produtos que envolvem todos os fatores.</p><span class="definition-example">Exemplo: venda de pães.</span></div></div>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>A renda da terra é um fluxo de remuneração pelo uso do terreno. Já o valor do imóvel é o preço de mercado do bem, isto é, um valor de patrimônio. Um terreno pode ser caro e, mesmo assim, não gerar renda mensal para seu proprietário.</p><p>A receita da produção tem outra origem: ela vem da venda dos produtos. Quando a padaria vende pães, o valor recebido envolve a participação de todos os fatores produtivos. Assim, a receita das vendas não pode ser interpretada integralmente como renda da terra.</p></div>
       </section>
 
-      <section data-title="Juros, renda e lucro" data-chapter="Capital e juros">
+      <section data-title="Juros, renda e lucro" data-chapter="Capital e juros" data-reading="true">
         <p class="eyebrow">05 / FORMAS DE REMUNERAÇÃO</p>
         <h2>Três conceitos.<br><em>Origens diferentes.</em></h2>
         <div class="three-column definitions"><div><p class="small-heading">RECURSOS FINANCEIROS</p><h3>Juros</h3><p>Custo ou remuneração pelo uso de recursos financeiros ao longo do tempo.</p></div><div><p class="small-heading">USO DE RECURSOS</p><h3>Renda</h3><p>Pode remunerar o uso de um ativo, como um terreno arrendado.</p></div><div><p class="small-heading">RESULTADO DA EMPRESA</p><h3>Lucro</h3><p>Excedente da receita sobre custos e despesas. O resultado também pode ser negativo.</p></div></div>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>Os juros correspondem ao custo ou à remuneração pelo uso de recursos financeiros ao longo do tempo. A renda pode remunerar o uso de um recurso ou ativo, como um terreno arrendado. Cada conceito descreve uma relação econômica e uma origem de pagamento diferente.</p><p>O lucro é o resultado positivo que ocorre quando as receitas superam os custos e despesas. Se os gastos forem maiores que a receita, existe prejuízo. Uma empresa pode pagar salários, aluguel e juros e ainda apresentar lucro, dependendo do conjunto de suas contas.</p></div>
       </section>
 
-      <section class="light" data-title="Juros simples" data-chapter="Capital e juros">
+      <section class="light" data-title="Juros simples" data-chapter="Capital e juros" data-reading="true">
         <p class="eyebrow">05 / JUROS SIMPLES</p>
         <div class="split formula-split"><div><h2>A mesma<br><em>base de cálculo</em></h2><p class="lead">A taxa incide sempre sobre o capital inicial.</p><div class="assumptions"><span>Capital <b>R$ 1.000</b></span><span>Taxa <b>2% a.m.</b></span><span>Prazo <b>3 meses</b></span></div></div><div class="formula-example"><div class="formula">J = C × i × t</div><p>1.000 × 0,02 × 3</p><div class="formula-result">R$ 60<span>de juros</span></div><p class="final-amount">Montante final <b>R$ 1.060</b></p></div></div>
         <p class="source">Simulação didática com taxa hipotética. Não representa uma oferta bancária.</p>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>Nos juros simples, a taxa incide sempre sobre o capital inicial. No exemplo, a padaria toma R$ 1.000 emprestados por três meses, a uma taxa hipotética de 2% ao mês. Como a base de cálculo não muda, o juro mensal permanece em R$ 20.</p><p>A fórmula J = C × i × t multiplica o capital pela taxa e pelo prazo. A taxa de 2% entra no cálculo como 0,02. Assim, os juros totalizam R$ 60 e o montante final chega a R$ 1.060. Os valores representam apenas uma simulação didática.</p></div>
       </section>
 
-      <section data-title="Juros compostos" data-chapter="Capital e juros">
+      <section data-title="Juros compostos" data-chapter="Capital e juros" data-reading="true">
         <p class="eyebrow">05 / JUROS COMPOSTOS</p>
         <h2>Os juros também<br><em>passam a render</em></h2>
         <div class="compound-layout"><div><p class="lead">A cada período, os juros entram na base de cálculo do período seguinte.</p><div class="formula">M = C × (1 + i)<sup>t</sup></div><p class="small muted">R$ 1.000 a 2% ao mês, durante 3 meses.</p></div><div class="compound-steps"><div><span>INÍCIO</span><strong>R$ 1.000,00</strong></div><div><span>MÊS 1</span><strong>R$ 1.020,00</strong></div><div><span>MÊS 2</span><strong>R$ 1.040,40</strong></div><div class="last"><span>MÊS 3</span><strong>R$ 1.061,21</strong></div></div></div>
         <p class="source">Valores arredondados para centavos. Taxa hipotética.</p>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>Nos juros compostos, os juros de cada período passam a integrar a base de cálculo do período seguinte. Por isso, o valor sobre o qual a taxa incide aumenta ao longo do tempo. Esse mecanismo é conhecido como juros sobre juros.</p><p>Para o mesmo capital de R$ 1.000, a 2% ao mês durante três meses, aplicamos M = C × (1 + i) elevado a t. O montante final fica em aproximadamente R$ 1.061,21. A diferença em relação aos juros simples cresce quando o prazo aumenta.</p></div>
       </section>
 
-      <section class="light" data-title="Simulador de juros" data-chapter="Capital e juros">
+      <section class="light" data-title="Simulador de juros" data-chapter="Capital e juros" data-reading="true">
         <p class="eyebrow">05 / EXPERIMENTO INTERATIVO</p>
         <h2>O tempo faz <em>diferença</em></h2>
         <div class="simulator"><div class="simulation-chart"><div class="chart-legend"><span class="legend-simple">Simples</span><span class="legend-compound">Compostos</span><span>Montante em R$</span></div><svg id="interestChart" viewBox="0 0 700 315" role="img" aria-label="Comparação dos montantes com juros simples e compostos"></svg><p id="chartSummary" class="sr-only" aria-live="polite"></p></div><div class="simulation-controls"><label for="principal">Capital inicial <strong id="principalValue">R$ 1.000</strong></label><input id="principal" type="range" min="500" max="10000" step="500" value="1000"><label for="rate">Taxa mensal <strong id="rateValue">2%</strong></label><input id="rate" type="range" min="0" max="5" step="0.5" value="2"><label for="months">Prazo <strong id="monthsValue">24 meses</strong></label><input id="months" type="range" min="1" max="36" step="1" value="24"><div class="simulation-result"><span>Diferença no final</span><strong id="differenceValue">R$ 128,44</strong></div><button class="text-button" id="resetInterest">Restaurar exemplo ↺</button></div></div>
         <p class="source">Taxas hipotéticas, sem tarifas ou tributos. Fórmulas: M simples = C(1 + it) e M composto = C(1 + i)ᵗ.</p>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>A simulação compara os dois regimes com o mesmo capital, a mesma taxa e o mesmo prazo. Em três meses, os montantes ficam em R$ 1.060 nos juros simples e cerca de R$ 1.061,21 nos compostos. Nesse prazo curto, a diferença ainda é pequena.</p><p>Em 24 meses, com R$ 1.000 e taxa de 2% ao mês, os valores chegam a R$ 1.480 e aproximadamente R$ 1.608,44. A diferença passa a R$ 128,44. Os controles permitem observar como capital, taxa e tempo alteram os montantes em cada regime.</p></div>
       </section>
 
-      <section data-title="Receita, gastos e resultado" data-chapter="Lucro">
+      <section data-title="Receita, gastos e resultado" data-chapter="Lucro" data-reading="true">
         <p class="eyebrow">06 / LUCRO</p>
         <h2>Vender não é o mesmo<br>que <em>lucrar</em></h2>
         <div class="profit-equation"><div><span>RECEITA</span><strong>30<span>mil</span></strong><p>Vendas do mês</p></div><span class="math-sign">−</span><div><span>GASTOS</span><strong>25<span>mil</span></strong><p>Custos e despesas</p></div><span class="math-sign">=</span><div class="result"><span>RESULTADO</span><strong>5<span>mil</span></strong><p>Ganho simplificado</p></div></div>
         <p class="bottom-note">Valores em reais, fictícios. A simulação pode não incluir todos os tributos e obrigações.</p>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>A receita é o total recebido com as vendas. Se a padaria vende R$ 30 mil em um mês, esse é seu faturamento no exemplo. Antes de conhecer o ganho final, precisamos considerar os pagamentos necessários para manter a atividade funcionando.</p><p>Se os gastos considerados somam R$ 25 mil, o resultado simplificado é de R$ 5 mil. Esse valor é diferente da receita de R$ 30 mil. A distinção ajuda a evitar a ideia de que todo dinheiro recebido nas vendas representa lucro para o empresário.</p></div>
       </section>
 
-      <section class="light" data-title="As contas da padaria" data-chapter="Lucro">
+      <section class="light" data-title="As contas da padaria" data-chapter="Lucro" data-reading="true">
         <p class="eyebrow">06 / O RESULTADO NA PRÁTICA</p>
         <h2>Para onde vão <em>os R$ 30 mil?</em></h2>
         <div class="waterfall-layout"><svg id="waterfallChart" viewBox="0 0 840 390" role="img" aria-label="Receita de 30 mil reais, menos 10 mil de salários, 3 mil de aluguel, 8 mil de insumos e 4 mil de outros gastos, resulta em 5 mil reais."></svg><div class="margin-stat"><span class="small-heading">MARGEM DO EXEMPLO</span><strong>16,7<span>%</span></strong><p>R$ 5 mil de resultado<br>sobre R$ 30 mil de receita.</p><p class="small muted">Resultado ÷ receita × 100</p></div></div>
         <p class="source">Exemplo fictício e simplificado.</p>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>O gráfico começa com R$ 30 mil em vendas e mostra a retirada de cada gasto. A padaria paga R$ 10 mil em salários, R$ 3 mil em aluguel, R$ 8 mil em insumos e R$ 4 mil em outros gastos, restando R$ 5 mil.</p><p>A margem do resultado simplificado é a relação entre o resultado e a receita. Dividimos R$ 5 mil por R$ 30 mil e multiplicamos por 100, obtendo aproximadamente 16,7%. Os valores são fictícios e não representam necessariamente todos os tributos e obrigações de uma empresa.</p></div>
       </section>
 
-      <section data-title="Lucro ou prejuízo?" data-chapter="Lucro">
+      <section data-title="Lucro ou prejuízo?" data-chapter="Lucro" data-reading="true">
         <p class="eyebrow">06 / EXPERIMENTO INTERATIVO</p>
         <div class="split risk-split"><div><h2>E se as vendas<br><em>caírem?</em></h2><p class="lead">O lucro não é garantido. Custos, concorrência, decisões e riscos influenciam o resultado.</p><label for="revenue">Vendas mensais <strong id="revenueValue">R$ 30.000</strong></label><input id="revenue" type="range" min="15000" max="40000" step="1000" value="30000"><p class="small muted">No experimento, mantemos os gastos em R$ 25 mil para isolar a mudança nas vendas.</p></div><div class="risk-result" aria-live="polite"><p id="profitState">LUCRO</p><strong id="profitValue">R$ 5.000</strong><div class="profit-meter"><span id="profitMeter"></span></div><p id="profitMessage">A receita cobre os gastos e deixa um excedente.</p></div></div>
         <p class="source">Simulação didática. Na prática, parte dos gastos também varia com a produção e as vendas.</p>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>A empresa apresenta lucro quando a receita supera os custos e despesas. Esse excedente pode ser usado em reservas, investimentos ou distribuição aos proprietários. Quando a receita não cobre os gastos, o resultado é negativo e a empresa registra prejuízo no período.</p><p>No experimento, mantemos os gastos em R$ 25 mil e alteramos apenas as vendas. Com receita de R$ 25 mil, o resultado é zero. Acima desse valor há lucro e abaixo há prejuízo. Na prática, parte dos gastos também varia com a produção e as vendas.</p></div>
       </section>
 
-      <section class="light" data-title="Síntese das remunerações" data-chapter="Síntese">
+      <section class="light" data-title="Síntese das remunerações" data-chapter="Síntese" data-reading="true">
         <p class="eyebrow">07 / SÍNTESE</p>
         <h2>Quem recebe <em>o quê?</em></h2>
         <table class="summary-table"><thead><tr><th>Fator</th><th>Na padaria</th><th>Remuneração</th></tr></thead><tbody><tr><td>Trabalho</td><td>Padeiros e atendentes</td><td>Salário</td></tr><tr><td>Terra</td><td>Terreno e localização</td><td>Renda da terra</td></tr><tr><td>Capital</td><td>Equipamentos e recursos financeiros</td><td>Retorno / juros</td></tr><tr><td>Capacidade empresarial</td><td>Organização e decisões</td><td>Lucro ou prejuízo</td></tr></tbody></table>
         <p class="source">Juros se referem ao capital financeiro. O capital físico participa da produção e pode gerar retorno.</p>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>O trabalho se relaciona ao salário e o uso da terra pode gerar renda da terra. No capital, é importante distinguir os recursos financeiros dos equipamentos físicos. Os juros se referem ao capital financeiro, enquanto o capital físico participa da produção e pode gerar retorno.</p><p>A capacidade empresarial organiza os recursos e assume os riscos da atividade. Seu resultado pode ser lucro ou prejuízo. A tabela reúne essas relações para mostrar que cada remuneração tem uma origem, embora todos os fatores participem da produção do mesmo bem.</p></div>
       </section>
 
-      <section data-title="Uma pessoa, várias remunerações" data-chapter="Conclusão">
+      <section data-title="Uma pessoa, várias remunerações" data-chapter="Conclusão" data-reading="true">
         <p class="eyebrow">07 / CONCLUSÃO</p>
         <h2>Uma pessoa.<br><em>Várias fontes de renda.</em></h2>
         <p class="lead narrow">Uma mesma pessoa pode participar da economia de maneiras diferentes.</p>
         <div class="income-rows"><div><span>Trabalha</span><strong>Salário</strong></div><div><span>Disponibiliza um imóvel</span><strong>Aluguel</strong></div><div><span>Aplica recursos financeiros</span><strong>Juros</strong></div><div><span>Participa de uma empresa</span><strong>Parte do lucro</strong></div></div>
         <p class="bottom-note">Na produção, os fatores atuam em conjunto. Cada remuneração tem uma origem.</p>
+      <div class="reading-text" aria-label="Texto para leitura em sala"><p>Os fatores de produção atuam em conjunto, mas suas remunerações têm origens diferentes. Uma mesma pessoa pode participar dessas relações de várias formas. Ela pode trabalhar e receber salário, disponibilizar um imóvel e receber aluguel ou aplicar recursos financeiros e obter juros.</p><p>Essa pessoa também pode participar de uma empresa e receber parte de seu lucro. O exemplo da padaria mostra que produzir exige combinar recursos e organizar decisões. Entender quem contribui e como recebe ajuda a compreender a distribuição dos rendimentos gerados pela atividade econômica.</p></div>
       </section>
 
       <section class="closing" data-title="Obrigado e referências" data-chapter="Referências">
