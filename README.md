@@ -1,27 +1,22 @@
-# Por trás do pão
+# Remuneração dos fatores de produção
 
-Uma apresentação interativa sobre a remuneração dos fatores de produção, com o exemplo de uma padaria.
+Apresentação de 10 slides com exemplo de uma padaria.
 
-**Artur Teixeira · Ítalo · João Henrique**
+Artur Teixeira · Ítalo · João Henrique
 
-[Abrir apresentação](https://artur-txr.github.io/economia-padaria/) · [PDF de reserva](Apresentacao_Reserva.pdf) · [Roteiro do grupo](ROTEIRO.md)
-
-## Apresentar
-
-Abra o link e use as setas para navegar. F ativa a tela cheia, I abre o índice e N abre o roteiro. Os controles dos slides de juros e vendas permitem testar os exemplos ao vivo.
-
-O arquivo index.html é autossuficiente: inclui código, fontes e imagem. Para levar sem internet, baixe esse arquivo e abra em um navegador atualizado.
-
-O PDF tem os 22 slides em formato estático. As interações ficam disponíveis no HTML.
+[Abrir apresentação](https://artur-txr.github.io/economia-padaria/) · [PDF](Apresentacao_Reserva.pdf) · [Roteiro](ROTEIRO.md)
 
 ## Conteúdo
 
-Trabalho e salários, salário nominal e real, oferta e demanda de trabalho, diferenças de rendimento, renda da terra, juros simples e compostos, lucro e prejuízo.
+5.1 A empresa e os fatores de produção
+5.2 Os salários e os mercados de trabalho
+5.3 A renda da terra
+5.4 Os juros renda e lucros
 
-Os dados de rendimento se referem a 2024 e estão vinculados à fonte do IBGE no slide. As simulações financeiras são fictícias e didáticas. As taxas de juros não representam ofertas bancárias.
+## Uso
 
-## Recursos
+Use as setas para navegar. F abre a tela cheia, I abre o índice e N abre o roteiro. O HTML inclui fontes, imagens e código para uso offline. O PDF contém os mesmos 10 slides em formato estático.
 
-Reveal.js 6.0.2, licença MIT. Fontes DM Sans e Manrope, SIL Open Font License. Os avisos e as licenças estão incorporados no HTML. Imagem de capa gerada por IA para fins ilustrativos.
+Exemplos financeiros fictícios e didáticos. Imagem de capa gerada por IA. Fotografia da padaria por Mauricio Krupka Buendia via Pexels, com crédito no slide.
 
-Sem analytics, rastreamento, contas ou dependências externas necessárias à apresentação.
+Reveal.js sob licença MIT. Fontes DM Sans e Manrope sob SIL Open Font License. Licenças incorporadas ao HTML.
